@@ -1,0 +1,25 @@
+.header-container{
+    position:relative;
+    height: 700px;
+    background-image: url(../../../images/Mask\ Group\ 2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    
+    
+}
+div{
+    overflow: hidden;
+}
+
+.header-container::after{
+    height:600px;
+    position: absolute;
+    content: '';
+    background-color:rgb(9, 9, 20);
+    width: 26%;
+    top:0;
+    right:0;
+    z-index: -50;
+}
